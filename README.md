@@ -21,12 +21,12 @@
 
 교재(_Computer Organization and Design_, MIPS Edition) 연습문제 풀이입니다.
 
-|  #  |  챕터   | 주요 내용                                                               |                                                                   바로가기                                                                   |
-| :-: | :-----: | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------: |
-|  1  | Ch 2, 3 | MIPS 명령어·인코딩, 오버플로, 나눗셈 하드웨어, IEEE 754 부동소수점      |    [![HW1](https://img.shields.io/badge/HW_1-ISA_&_Arithmetic-4A90E2?style=for-the-badge)](./Homework/HW1_Ch2-3_MIPS-ISA-Arithmetic.pdf)     |
-|  2  | Ch 1, 4 | CPI·실행 시간 성능 분석, 멀티프로세서 속도 향상, 단일 사이클 데이터패스 | [![HW2](https://img.shields.io/badge/HW_2-Performance_&_Datapath-7B68EE?style=for-the-badge)](./Homework/HW2_Ch1-4_Performance-Datapath.pdf) |
-|  3  |  Ch 4   | 파이프라인 Hazard, 포워딩, 지연 슬롯, 분기 예측, 2-issue 스케줄링       |        [![HW3](https://img.shields.io/badge/HW_3-Pipeline-2ECC71?style=for-the-badge)](./Homework/HW3_Ch4_Pipeline-Hazard-Branch.pdf)        |
-|  4  |  Ch 5   | 캐시 HIT/MISS 분석, 다단계 캐시, 가상 메모리·페이지 테이블, 캐시 일관성 |    [![HW4](https://img.shields.io/badge/HW_4-Memory_Hierarchy-E74C3C?style=for-the-badge)](./Homework/HW4_Ch5_Memory-Hierarchy-Cache.pdf)    |
+|  #  |  챕터   | 주요 내용                                                               |                                                                      바로가기                                                                       |
+| :-: | :-----: | :---------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  1  | Ch 2, 3 | MIPS 명령어·인코딩, 오버플로, 나눗셈 하드웨어, IEEE 754 부동소수점      |    [![HW1](https://img.shields.io/badge/HW_1-ISA_&_Arithmetic-4A90E2?style=for-the-badge)](./Problem-Solving/HW1_Ch2-3_MIPS-ISA-Arithmetic.pdf)     |
+|  2  | Ch 1, 4 | CPI·실행 시간 성능 분석, 멀티프로세서 속도 향상, 단일 사이클 데이터패스 | [![HW2](https://img.shields.io/badge/HW_2-Performance_&_Datapath-7B68EE?style=for-the-badge)](./Problem-Solving/HW2_Ch1-4_Performance-Datapath.pdf) |
+|  3  |  Ch 4   | 파이프라인 Hazard, 포워딩, 지연 슬롯, 분기 예측, 2-issue 스케줄링       |        [![HW3](https://img.shields.io/badge/HW_3-Pipeline-2ECC71?style=for-the-badge)](./Problem-Solving/HW3_Ch4_Pipeline-Hazard-Branch.pdf)        |
+|  4  |  Ch 5   | 캐시 HIT/MISS 분석, 다단계 캐시, 가상 메모리·페이지 테이블, 캐시 일관성 |    [![HW4](https://img.shields.io/badge/HW_4-Memory_Hierarchy-E74C3C?style=for-the-badge)](./Problem-Solving/HW4_Ch5_Memory-Hierarchy-Cache.pdf)    |
 
 <br>
 
