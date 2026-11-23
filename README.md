@@ -1,6 +1,6 @@
 # 🖥️ Computer Architecture
 
-컴퓨터구조 과목에서 진행한 과제 프로젝트를 모아둔 저장소입니다.  
+컴퓨터구조 과목에서 진행한 과제 프로젝트와 교재 연습문제 풀이를 모아둔 저장소입니다.  
 논리 소자로 만든 간단한 프로세서부터 MIPS CPU의 제어 설계, 파이프라인, 캐시 성능 분석까지 다룹니다.
 
 <br>
@@ -14,6 +14,19 @@
 |  2  | MIPS Multi-Cycle CPU  | FSM, 마이크로코드           |  [![Project 2](https://img.shields.io/badge/Project_2-Multi_Cycle_CPU-7B68EE?style=for-the-badge)](./Project2_MIPS-Multi-Cycle-CPU)  |
 |  3  | Pipeline Hazard 해결  | NOP 삽입 vs Forwarding      |  [![Project 3](https://img.shields.io/badge/Project_3-Pipeline-2ECC71?style=for-the-badge)](./Project3_Pipeline-Hazard-Forwarding)   |
 |  4  | Cache 성능 분석       | SimpleScalar, AMAT          |        [![Project 4](https://img.shields.io/badge/Project_4-Cache-E74C3C?style=for-the-badge)](./Project4_Cache-SimpleScalar)        |
+
+<br>
+
+## ✏️ Homework
+
+교재(_Computer Organization and Design_, MIPS Edition) 연습문제 풀이입니다.
+
+|  #  |  챕터   | 주요 내용                                                               |                                                                   바로가기                                                                   |
+| :-: | :-----: | :---------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------: |
+|  1  | Ch 2, 3 | MIPS 명령어·인코딩, 오버플로, 나눗셈 하드웨어, IEEE 754 부동소수점      |    [![HW1](https://img.shields.io/badge/HW_1-ISA_&_Arithmetic-4A90E2?style=for-the-badge)](./Homework/HW1_Ch2-3_MIPS-ISA-Arithmetic.pdf)     |
+|  2  | Ch 1, 4 | CPI·실행 시간 성능 분석, 멀티프로세서 속도 향상, 단일 사이클 데이터패스 | [![HW2](https://img.shields.io/badge/HW_2-Performance_&_Datapath-7B68EE?style=for-the-badge)](./Homework/HW2_Ch1-4_Performance-Datapath.pdf) |
+|  3  |  Ch 4   | 파이프라인 Hazard, 포워딩, 지연 슬롯, 분기 예측, 2-issue 스케줄링       |        [![HW3](https://img.shields.io/badge/HW_3-Pipeline-2ECC71?style=for-the-badge)](./Homework/HW3_Ch4_Pipeline-Hazard-Branch.pdf)        |
+|  4  |  Ch 5   | 캐시 HIT/MISS 분석, 다단계 캐시, 가상 메모리·페이지 테이블, 캐시 일관성 |    [![HW4](https://img.shields.io/badge/HW_4-Memory_Hierarchy-E74C3C?style=for-the-badge)](./Homework/HW4_Ch5_Memory-Hierarchy-Cache.pdf)    |
 
 <br>
 
@@ -82,6 +95,11 @@ Shell Sort를 MIPS 어셈블리로 작성하고, 5단계 파이프라인에서 �
 
 ```
 Computer-Architecture/
+├── Homework/
+│   ├── HW1_Ch2-3_MIPS-ISA-Arithmetic.pdf
+│   ├── HW2_Ch1-4_Performance-Datapath.pdf
+│   ├── HW3_Ch4_Pipeline-Hazard-Branch.pdf
+│   └── HW4_Ch5_Memory-Hierarchy-Cache.pdf
 ├── Project0_MU0-Processor-Logisim/
 ├── Project1_MIPS-Single-Cycle-CPU/
 ├── Project2_MIPS-Multi-Cycle-CPU/
@@ -96,7 +114,8 @@ Computer-Architecture/
 ## ⚠️ Note
 
 과제 명세서, 강의 자료, 교수님이 제공한 시뮬레이션 파일(`tb_*.o`)과 SPEC95 벤치마크 바이너리는 저작권 및 라이선스 문제로 포함하지 않았습니다.  
-이 저장소에는 직접 작성한 제어 신호 표, 마이크로코드, 어셈블리 코드, 시뮬레이션 결과와 보고서만 포함되어 있습니다.
+이 저장소에는 직접 작성한 제어 신호 표, 마이크로코드, 어셈블리 코드, 시뮬레이션 결과와 보고서, 연습문제 풀이만 포함되어 있습니다.  
+연습문제의 문제 원문은 교재 출판사에 저작권이 있습니다.
 
 <br>
 
@@ -104,5 +123,5 @@ Computer-Architecture/
 
 Copyright © 2025 장서현. All rights reserved.
 
-이 저장소의 코드와 보고서는 학습 및 포트폴리오 목적으로 공개합니다.  
+이 저장소의 코드, 보고서, 풀이는 학습 및 포트폴리오 목적으로 공개합니다.  
 **무단 복제 및 과제 제출 용도로의 사용을 금지합니다.**
